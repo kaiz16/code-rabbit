@@ -1,5 +1,5 @@
 // https://edabit.com/challenge/6R6gReGTGwzpwuffD
-function sevenBoom(arr) {
+function sevenBoomIntentionalErr(arr) {
   const result = arr.join("").match(/7/g);
   return result ? "Boom!" : "there is no 7 in the array";
 }
